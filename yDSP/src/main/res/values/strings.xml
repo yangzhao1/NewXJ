@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //移动审批app
+    <string name="app_name">政务demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="gsmc">名称：合阳县行政服务中心</string>
+    <string name="lxdh">电话：0913-5886200/0913-5886100</string>
+    <string name="gswz">网址：hyxbmzx.com</string>
+    <string name="gsdz">地址：合阳县凤凰西路人社局楼下</string>
+
+    <string name="album">相册</string>
+    <string name="camera_cancel">取消</string>
+    <string name="preview">预览</string>
+    <string name="no_photo">相册没有图片</string>
+    <string name="finish">完成</string>
+    <string name="load_error">加载失败,点击重试</string>
+    <string name="network_anomaly">当前网络不可用，请检查网络连接</string>
+
+    <string name="banquan">Copyright © 2016-2022合阳县政务服务中心 All Rights Reserved</string>
+
+    //政务服务app
+    <string name="home">首页</string>
+    <string name="hall">办事大厅</string>
+    <string name="convenience">便民服务</string>
+    <string name="mine">我的</string>
+    <string name="consultcomplint">咨询投诉</string>
+    <string name="persontheme">个人主题</string>
+    <string name="cut">切换身份</string>
+    <string name="center_show">中心简介</string>
+    <string name="center_dynamic">中心动态</string>
+    <string name="policy">政策法规</string>
+    <string name="compaint">咨询投诉</string>
+    <string name="hot_items">热点事项</string>
+    <string name="online_hall">办件公示</string>
+    <string name="online_booking">网上预约</string>
+    <string name="progress_search">进度查询</string>
+    <string name="interaction">互动公示</string>
+    <string name="notice">通知公告</string>
+    <string name="more">更多</string>
+    <string name="express">快递查询</string>
+    <string name="livingpay">生活缴费</string>
+    <string name="violation">违章查询</string>
+    <string name="trick">机票预定</string>
+    <string name="convenience_service">便民服务</string>
+    <string name="hall_type1">个人服务</string>
+    <string name="hall_type2">法人服务</string>
+    <string name="hall_type3">办事部门</string>
+    <string name="collect">我的收藏</string>
+    <string name="dothing">我的办件</string>
+    <string name="subscribe">我的预约</string>
+    <string name="complaint">咨询投诉</string>
+    <string name="evaluate">我的评价</string>
+    <string name="message">我的消息</string>
+    <string name="setting">设置</string>
+    <string name="back">返回</string>
+    <string name="prompt">温馨提示:</string>
+    <string name="prompt_content">1.此处填写用户名和电话用于以后查看信息和回复结果\n2.如果您的问题比较着急，请拨打我们的中心电话，联系工作人员予以回复\n3.标有红色*的为必填项</string>
+    <string name="booking_content">1.预约用户大厅办理业务，根据所选预约时间节点享受提前叫号办理\n2.预约用户预约成功之后，牢记预约时间节点，按时到大厅取号等待办理预约事项，过期预约号码作废！\n3.标有红色*的为必填项</string>
+    <string name="guidance">办事指南</string>
+    <string name="onlinetodeal">在线办理</string>
+    <string name="online">网上预约</string>
+    <string name="tocollect">我要收藏</string>
+    <string name="collected">已收藏</string>
+    <string name="thestatus">受理状态：</string>
+    <string name="processed">已处理</string>
+    <string name="undisposed">未处理</string>
+    <string name="department">部门：</string>
+    <string name="nodata">暂无数据</string>
+
+</resources>

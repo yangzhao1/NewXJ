@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/bmsf"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_bm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="民政局"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_15" />
+
+            <TextView
+                android:id="@+id/tv_sfbj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收费办件"
+                android:layout_marginTop="10dp"
+                android:textColor="#999999"
+                android:textSize="@dimen/text_15" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/shape_white"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/height_"
+                    android:background="#4ac8c7"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="总体收费"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_14" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|center_horizontal" >
+
+                    <TextView
+                        android:id="@+id/tv_ztsf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="¥"
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/text_16" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#f2f2f2" />
+
+</LinearLayout>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_dbsx"
+        android:orientation="horizontal"
+        android:padding="1dp" >
+
+        <LinearLayout
+            style="@style/width_"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/line_zc"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="19"
+                android:background="@color/titlecolor"
+                android:onClick="LayoutOnclick" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <ImageView
+                        style="@style/dbsx_image"
+                        android:background="@drawable/zc"
+                        android:contentDescription="@string/app_name"
+                        android:visibility="gone" />
+
+                    <RelativeLayout
+                        android:layout_width="60dp"
+                        android:layout_height="35dp"
+                        android:layout_centerInParent="true" >
+
+                        <TextView
+                            android:id="@+id/text1"
+                            style="@style/dbsx_text"
+                            android:layout_centerInParent="true"
+                            android:text="正常"
+                            android:textColor="#ffffff" />
+
+                        <TextView
+                            android:id="@+id/tv_zc"
+                            style="@style/dbsx_text_red"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@drawable/red_circle"
+                            android:gravity="center"
+                            android:text="2"
+                            android:textColor="#ffffff"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:visibility="gone" >
+
+                <View
+                    android:id="@+id/view_zc"
+                    style="@style/dbsx_view_blue"
+                    android:visibility="gone" />
+
+                <View style="@style/dbsx_view_grey" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/dbsx_view" />
+
+        <LinearLayout
+            style="@style/width_"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/line_gq"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="19"
+                android:gravity="center_vertical|center_horizontal"
+                android:onClick="LayoutOnclick" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_vertical" >
+
+                    <ImageView
+                        style="@style/dbsx_image"
+                        android:background="@drawable/gq"
+                        android:contentDescription="@string/app_name"
+                        android:visibility="gone" />
+
+                    <RelativeLayout
+                        android:layout_width="60dp"
+                        android:layout_height="35dp"
+                        android:layout_centerInParent="true" >
+
+                        <TextView
+                            android:id="@+id/text2"
+                            style="@style/dbsx_text"
+                            android:layout_centerInParent="true"
+                            android:text="过期" />
+
+                        <TextView
+                            android:id="@+id/tv_gq"
+                            style="@style/dbsx_text_red"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@drawable/red_circle"
+                            android:gravity="center"
+                            android:textColor="#ffffff"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:visibility="gone" >
+
+                <View
+                    android:id="@+id/view_gq"
+                    style="@style/dbsx_view_blue"
+                    android:visibility="gone" />
+
+                <View style="@style/dbsx_view_grey" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/dbsx_view" />
+
+        <LinearLayout
+            style="@style/width_"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/line_yj"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="19"
+                android:gravity="center_vertical|center_horizontal"
+                android:onClick="LayoutOnclick" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_vertical" >
+
+                    <ImageView
+                        style="@style/dbsx_image"
+                        android:background="@drawable/yj"
+                        android:contentDescription="@string/app_name"
+                        android:visibility="gone" />
+
+                    <RelativeLayout
+                        android:layout_width="60dp"
+                        android:layout_height="35dp"
+                        android:layout_centerInParent="true" >
+
+                        <TextView
+                            android:id="@+id/text3"
+                            style="@style/dbsx_text"
+                            android:layout_centerInParent="true"
+                            android:text="预警" />
+
+                        <TextView
+                            android:id="@+id/tv_yj"
+                            style="@style/dbsx_text_red"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@drawable/red_circle"
+                            android:gravity="center"
+                            android:textColor="#ffffff"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:visibility="gone" >
+
+                <View
+                    android:id="@+id/view_yj"
+                    style="@style/dbsx_view_blue"
+                    android:visibility="gone" />
+
+                <View style="@style/dbsx_view_grey" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

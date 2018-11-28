@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/gray_shape"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_small"
+            android:background="@color/theme_color"
+            android:gravity="center"
+            android:text="一  选择用户类型  一"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/line"/>
+        <TextView
+            android:id="@+id/geren"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_small"
+            android:gravity="center"
+            android:text="个人"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/line"/>
+        <TextView
+            android:id="@+id/qiye"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_small"
+            android:gravity="center"
+            android:text="企业"
+            />
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:text="取消"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@color/theme_color"
+            android:background="@drawable/halltype_shape"/>
+    </LinearLayout>
+
+</LinearLayout>

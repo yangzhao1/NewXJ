@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/line"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bj"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+         android:id="@+id/line1"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            style="@style/height_"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <TextView
+                android:id="@+id/popup_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请选择您要查看的批示状态！"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_18" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/height_" >
+
+            <LinearLayout style="@style/width_" >
+
+                <LinearLayout
+                    android:id="@+id/popup_tg"
+                    style="@style/line1"
+                    android:background="@drawable/shape_bluepopup"
+                    android:gravity="center_vertical|center_horizontal" >
+
+                    <TextView
+                        style="@style/popup_btn"
+                        android:text="通过" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/width_" >
+
+                <LinearLayout
+                    android:id="@+id/popup_bh"
+                    style="@style/line1"
+                    android:background="@drawable/shape_greypopup"
+                    android:gravity="center_vertical|center_horizontal" >
+
+                    <TextView
+                        style="@style/popup_btn"
+                        android:text="驳回" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

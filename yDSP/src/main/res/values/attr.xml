@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+    </declare-styleable>
+
+    <attr name="rightPadding" format="dimension" />
+
+    <declare-styleable name="Slidingmenu1">
+        <attr name="rightPadding" />
+    </declare-styleable>
+
+    <string-array name="list">
+        <item>事项名称</item>
+        <item>流水号</item>
+        <item>申办人</item>
+    </string-array>
+   	
+    <string-array name="list1">
+        <item>itemname</item>
+        <item>sncode</item>
+        <item>username</item>
+    </string-array>
+
+    <attr name="defaultColor" format="color" />
+    <attr name="circlewidth" format="dimension" />
+    <declare-styleable name="CircularRingView">
+        <attr name="defaultColor" />
+        <attr name="circlewidth" />
+    </declare-styleable>
+    
+    <declare-styleable name="Slidingmenu">
+        <attr name="mode">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="viewAbove" format="reference" />
+        <attr name="viewBehind" format="reference" />
+        <attr name="behindOffset" format="dimension" />
+        <attr name="behindWidth" format="dimension" />
+        <attr name="behindScrollScale" format="float" />
+        <attr name="touchModeAbove">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="touchModeBehind">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="shadowDrawable" format="reference" />
+        <attr name="shadowWidth" format="dimension" />
+        <attr name="fadeEnabled" format="boolean" />
+        <attr name="fadeDegree" format="float" />
+        <attr name="selectorEnabled" format="boolean" />
+        <attr name="selectorDrawable" format="reference" />
+    </declare-styleable>
+
+    <attr name="textsizes" format="reference|dimension" />
+    <attr name="titlesize" format="reference|dimension" />
+    <attr name="textsize2" format="reference|dimension" />
+    <attr name="textsosmall" format="reference|dimension" />
+
+</resources>

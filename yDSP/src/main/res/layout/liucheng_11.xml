@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/line_lc2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2f2f2"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+             >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="21dp"
+                android:layout_weight="5" >
+
+                <ImageView
+                    android:id="@+id/dian1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/huidian"
+                    android:contentDescription="@string/app_name" />
+
+                <View
+                    android:id="@+id/xian1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@id/dian1"
+                    android:background="#cccccc" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5" >
+
+                <ImageView
+                    android:id="@+id/dian2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/huidian"
+                    android:contentDescription="@string/app_name" />
+
+                <View
+                    android:id="@+id/xian2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_centerInParent="true"
+                    android:background="#cccccc" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5" >
+
+                <ImageView
+                    android:id="@+id/dian3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/huidian"
+                    android:contentDescription="@string/app_name" />
+
+                <View
+                    android:id="@+id/xian3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_centerInParent="true"
+                    android:background="#cccccc" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5" >
+
+                <ImageView
+                    android:id="@+id/dian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/huidian"
+                    android:contentDescription="@string/app_name" />
+
+                <View
+                    android:id="@+id/xian4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_centerInParent="true"
+                    android:background="#cccccc" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="5" >
+
+                <ImageView
+                    android:id="@+id/dian5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/huidian"
+                    android:contentDescription="@string/app_name" />
+
+                <View
+                    android:id="@+id/xian5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_centerInParent="true"
+                    android:background="#cccccc" />
+
+                <View
+                    android:id="@+id/xian5_1"
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/xian5"
+                    android:background="#cccccc" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="21dp"
+                android:layout_weight="5"
+                android:gravity="center_horizontal|center_vertical" >
+
+                <TextView
+                    android:id="@+id/zi1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="开始"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:gravity="center_horizontal|center_vertical" >
+
+                <TextView
+                    android:id="@+id/zi2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="窗口受理"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_14" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal|center_vertical" >
+
+                <TextView
+                    android:id="@+id/zi3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="部门批示"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:gravity="center_horizontal|center_vertical" >
+
+                <TextView
+                    android:id="@+id/zi4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="独立收费"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:gravity="center_horizontal|center_vertical" >
+
+                <TextView
+                    android:id="@+id/zi5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="窗口签发"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_14" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/xian5_2"
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="20dp"
+                android:background="#cccccc" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="10dp" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="21dp"
+                android:layout_weight="5" >
+
+                <ImageView
+                    android:id="@+id/dian10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/huidian"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="visible" />
+
+                <View
+                    android:id="@+id/xian10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_centerInParent="true"
+                    android:background="#cccccc"
+                    android:visibility="visible" />
+
+                <View
+                    android:id="@+id/xian10_1"
+                    android:layout_width="1dp"
+                    android:layout_height="5dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/xian10"
+                    android:background="#cccccc"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5" >
+
+                <ImageView
+                    android:id="@+id/dian9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/huidian"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="visible" />
+
+                <View
+                    android:id="@+id/xian9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_centerInParent="true"
+                    android:background="#cccccc"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5" >
+
+                <ImageView
+                    android:id="@+id/dian8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/huidian"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="visible" />
+
+                <View
+                    android:id="@+id/xian8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_centerInParent="true"
+                    android:background="#cccccc"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5" >
+
+                <ImageView
+                    android:id="@+id/dian7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/huidian"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="visible" />
+
+                <View
+                    android:id="@+id/xian7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#cccccc"
+                    android:visibility="visible"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="5" >
+
+
+                <ImageView
+                    android:id="@+id/dian6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/huidian"
+                    android:contentDescription="@string/app_name" />
+
+                <View
+                    android:id="@+id/xian6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_centerInParent="true"
+                    android:background="#cccccc" />
+
+                <View
+                    android:id="@+id/dian6_1"
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:layout_above="@id/xian6"
+                    android:layout_alignParentRight="true"
+                    android:background="#cccccc" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+             >
+
+            <View
+                android:id="@+id/xian10_2"
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="21dp"
+                android:background="#cccccc" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="4.8"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/zi10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="开始"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_14"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/zi9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="部门受理"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_14"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/zi8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="部门批示"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_14"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/zi7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="窗口签发"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_14"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/zi6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="结束"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_14" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/width_" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="21dp"
+                android:layout_weight="5" >
+
+                <ImageView
+                    android:id="@+id/dian11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/huidian"
+                    android:contentDescription="@string/app_name" />
+
+                <View
+                    android:id="@+id/xian11"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_toLeftOf="@id/dian11"
+                    android:layout_centerInParent="true"
+                    android:background="#cccccc" />
+
+                <View
+                    android:id="@+id/xian11_1"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_above="@id/xian11"
+                    android:background="#cccccc" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:visibility="invisible"
+                android:layout_weight="5" >
+
+                <ImageView
+                    android:id="@+id/dian12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/huidian"
+                    android:contentDescription="@string/app_name" />
+
+                <View
+                    android:id="@+id/xian12"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_centerInParent="true"
+                    android:background="#cccccc" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:visibility="invisible"
+
+                android:layout_weight="5" >
+
+                <ImageView
+                    android:id="@+id/dian13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/huidian"
+                    android:contentDescription="@string/app_name" />
+
+                <View
+                    android:id="@+id/xian13"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_centerInParent="true"
+                    android:background="#cccccc" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:visibility="invisible"
+                android:layout_weight="5" >
+
+                <ImageView
+                    android:id="@+id/dian14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/huidian"
+                    android:contentDescription="@string/app_name" />
+
+                <View
+                    android:id="@+id/xian14"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_centerInParent="true"
+                    android:background="#cccccc" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:visibility="invisible"
+                android:layout_weight="5" >
+
+                <ImageView
+                    android:id="@+id/dian15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/huidian"
+                    android:contentDescription="@string/app_name" />
+
+                <View
+                    android:id="@+id/xian15"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:visibility="visible"
+                    android:layout_centerInParent="true"
+                    android:layout_toLeftOf="@id/dian15"
+                    android:background="#cccccc" />
+
+                <View
+                    android:id="@+id/xian15_1"
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:visibility="gone"
+                    android:layout_below="@id/xian15"
+                    android:background="#cccccc" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="21dp"
+                android:layout_weight="5"
+                android:gravity="center_horizontal|center_vertical" >
+
+                <TextView
+                    android:id="@+id/zi11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="结束"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:visibility="invisible"
+                android:gravity="center_horizontal|center_vertical" >
+
+                <TextView
+                    android:id="@+id/zi12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="窗口受理"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_14" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:visibility="invisible"
+                android:gravity="center_horizontal|center_vertical" >
+
+                <TextView
+                    android:id="@+id/zi13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="部门批示"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:visibility="invisible"
+                android:gravity="center_horizontal|center_vertical" >
+
+                <TextView
+                    android:id="@+id/zi14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="独立收费"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:visibility="invisible"
+                android:gravity="center_horizontal|center_vertical" >
+
+                <TextView
+                    android:id="@+id/zi15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="结束"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_14" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="20dp"
+                android:visibility="invisible"
+                android:background="#cccccc" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

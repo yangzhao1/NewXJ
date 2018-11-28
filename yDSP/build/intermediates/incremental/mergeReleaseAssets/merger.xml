@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config=":libraryPull"><source path="E:\AndroidDemo\YDSP\libraryPull\build\intermediates\bundles\release\assets"/></dataSet><dataSet config="main"><source path="E:\AndroidDemo\YDSP\yDSP\src\main\assets"><file name="simkai.ttf" path="E:\AndroidDemo\YDSP\yDSP\src\main\assets\simkai.ttf"/></source><source path="E:\AndroidDemo\YDSP\yDSP\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="E:\AndroidDemo\YDSP\yDSP\src\release\assets"/></dataSet></merger>

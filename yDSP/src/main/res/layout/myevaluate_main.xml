@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/g_titlebar"
+        ></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/all"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="全部"
+            android:textColor="@color/theme_color"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/fcmy"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="非常满意"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/my"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="满意"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/yb"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="一般"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:visibility="visible"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/bmy"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:text="不满意"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <com.zq.xinjiang.government.view.ScrllorTabTextView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v4.view.ViewPager>
+    </RelativeLayout>
+
+</LinearLayout>

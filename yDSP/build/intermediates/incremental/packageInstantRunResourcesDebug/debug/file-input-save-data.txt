@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Nov 28 16:12:30 CST 2018
+0.baseType=DIRECTORY
+0.base=E\:\\AndroidDemo\\YDSP\\yDSP\\build\\intermediates\\assets\\debug
+0.path=simkai.ttf
+0.set=ASSET
+count=1

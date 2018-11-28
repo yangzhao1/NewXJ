@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.zq.xinjiang.government.view.NoScrollViewPager
+            android:id="@+id/viewpager_noscroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp">
+
+        </com.zq.xinjiang.government.view.NoScrollViewPager>
+
+        <LinearLayout
+            android:id="@+id/lin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="#f9f9f9"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/homelin"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/homeimage"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/home02"
+                    />
+
+                <TextView
+                    android:id="@+id/hometext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/theme_color"
+                    android:textSize="?textsosmall"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/halllin"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/hallimage"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/hall01"
+                    />
+
+                <TextView
+                    android:id="@+id/halltext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hall"
+                    android:layout_marginTop="5dp"
+                    android:textSize="?textsosmall"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/conveniencelin"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/convenienceimage"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/convenience01"
+                    />
+
+                <TextView
+                    android:id="@+id/conveniencetext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/convenience"
+                    android:layout_marginTop="5dp"
+                    android:textSize="?textsosmall"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/minelin"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/mineimage"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/mine01"
+                    />
+
+                <TextView
+                    android:id="@+id/minetext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mine"
+                    android:layout_marginTop="5dp"
+                    android:textSize="?textsosmall"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5px"
+            android:layout_above="@id/lin"
+            android:background="@color/line"/>
+    </RelativeLayout>
+
+</LinearLayout>

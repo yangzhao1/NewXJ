@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="#edf2f6"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        style="@style/width_"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/line_yj"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="19"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="LayoutOnclick" >
+
+            <LinearLayout style="@style/main_wrap" >
+
+                <ImageView
+                    style="@style/dbsx_image"
+                    android:background="@drawable/yj"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    style="@style/dbsx_text"
+                    android:text="预警" />
+
+                <TextView
+                    android:id="@+id/tv_yj"
+                    style="@style/dbsx_text_red"
+                    android:layout_marginLeft="2dp"
+                     />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom" >
+
+            <View
+                android:id="@+id/view_yj"
+                style="@style/dbsx_view_blue"
+                android:visibility="gone" />
+
+            <View style="@style/dbsx_view_grey" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View style="@style/dbsx_view" />
+
+    <LinearLayout
+        style="@style/width_"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/line_gq"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="19"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="LayoutOnclick" >
+
+            <LinearLayout style="@style/main_wrap" >
+
+                <ImageView
+                    style="@style/dbsx_image"
+                    android:background="@drawable/gq"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    style="@style/dbsx_text"
+                    android:text="过期" />
+
+                <TextView
+                    android:id="@+id/tv_gq"
+                    style="@style/dbsx_text_red"
+                    android:layout_marginLeft="2dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom" >
+
+            <View
+                android:id="@+id/view_gq"
+                style="@style/dbsx_view_blue"
+                android:visibility="gone" />
+
+            <View style="@style/dbsx_view_grey" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

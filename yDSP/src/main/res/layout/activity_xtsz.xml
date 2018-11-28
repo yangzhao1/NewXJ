@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:background="@color/titlebg" >
+
+       <ImageView
+           android:id="@+id/return_main"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:padding="15dp"
+           android:src="@drawable/return_to_main" />
+
+       <TextView
+           android:id="@+id/text"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:text="系统设置"
+           android:textColor="@color/white"
+           android:textSize="18sp" />
+   </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/line_ewm"
+            style="@style/height_"
+            android:visibility="gone" >
+
+            <LinearLayout
+                style="@style/width_"
+                android:gravity="center_vertical|center_horizontal" >
+
+                <ImageView
+                    style="@style/main_wrap"
+                    android:background="@drawable/ewm" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/xtsz_line"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    style="@style/xtsz_text"
+                    android:text="二维码" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/xtsz_line"
+                android:layout_marginRight="30dp"
+                android:gravity="center_vertical|right" >
+
+                <ImageView
+                    style="@style/main_wrap"
+                    android:background="@drawable/you" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/xtsz_view" />
+
+        <LinearLayout
+            android:id="@+id/line_xtxx"
+            style="@style/height_" >
+
+            <LinearLayout
+                style="@style/width_"
+                android:gravity="center_vertical|center_horizontal" >
+
+                <ImageView
+                    style="@style/main_wrap"
+                    android:background="@drawable/xtxx" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/xtsz_line"
+                android:gravity="center_vertical" >
+
+                <LinearLayout style="@style/main_wrap" >
+
+                    <TextView
+                        style="@style/xtsz_text"
+                        android:text="系统消息" />
+
+                    <View
+                        android:id="@+id/yd"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="top"
+                        android:background="@drawable/red_circle"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/xtsz_line"
+                android:layout_marginRight="30dp"
+                android:gravity="center_vertical|right" >
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/you" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:background="#f2f2f2"
+            android:visibility="visible" />
+        <View style="@style/xtsz_view" />
+
+        <LinearLayout
+            android:id="@+id/line_qchc"
+            style="@style/height_" >
+
+            <LinearLayout
+                style="@style/width_"
+                android:gravity="center_vertical|center_horizontal" >
+
+                <ImageView
+                    style="@style/main_wrap"
+                    android:background="@drawable/qchc" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/xtsz_line"
+                android:gravity="center_vertical" >
+
+                <LinearLayout style="@style/main_wrap" >
+
+                    <TextView
+                        style="@style/xtsz_text"
+                        android:text="清除缓存" />
+
+                    <View
+                        android:id="@+id/hongdian"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="top"
+                        android:background="@drawable/red_circle"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/xtsz_line"
+                android:layout_marginRight="30dp"
+                android:gravity="center_vertical|right" >
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/you" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:background="#f2f2f2"
+            android:visibility="visible" />
+        <View style="@style/xtsz_view" />
+
+        <LinearLayout
+            android:id="@+id/line_yhfk"
+            style="@style/height_" >
+
+            <LinearLayout
+                style="@style/width_"
+                android:gravity="center_vertical|center_horizontal" >
+
+                <ImageView
+                    style="@style/main_wrap"
+                    android:background="@drawable/yhfk" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/xtsz_line"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    style="@style/xtsz_text"
+                    android:text="用户反馈" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/xtsz_line"
+                android:layout_marginRight="30dp"
+                android:gravity="center_vertical|right" >
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/you" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/xtsz_view" />
+
+        <LinearLayout
+            android:id="@+id/line_jcgx"
+            style="@style/height_" >
+
+            <LinearLayout
+                style="@style/width_"
+                android:gravity="center_vertical|center_horizontal" >
+
+                <ImageView
+                    style="@style/main_wrap"
+                    android:background="@drawable/jcgx" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/xtsz_line"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    style="@style/xtsz_text"
+                    android:text="检查更新" />
+
+                <LinearLayout
+                    android:id="@+id/line_new"
+                    android:layout_width="30dp"
+                    android:layout_height="15dp"
+                    android:background="@drawable/shape_new"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:visibility="visible" >
+
+                    <TextView
+                        style="@style/main_wrap"
+                        android:text="NEW"
+                        android:textColor="@color/white"
+                        android:textSize="8sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/xtsz_line"
+                android:layout_marginRight="30dp"
+                android:gravity="center_vertical|right" >
+
+                <TextView
+                    android:id="@+id/tv_dqbb"
+                    style="@style/main_wrap"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/xtsz_view" />
+
+        <LinearLayout
+            android:id="@+id/line_gywm"
+            style="@style/height_" >
+
+            <LinearLayout
+                style="@style/width_"
+                android:gravity="center_vertical|center_horizontal" >
+
+                <ImageView
+                    style="@style/main_wrap"
+                    android:background="@drawable/gywm" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/xtsz_line"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    style="@style/xtsz_text"
+                    android:text="关于我们" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/xtsz_line"
+                android:layout_marginRight="30dp"
+                android:gravity="center_vertical|right" >
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/you" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:background="#f2f2f2" />
+
+        <LinearLayout
+            android:id="@+id/line_xgmm"
+            style="@style/height_"
+            android:visibility="gone" >
+
+            <LinearLayout
+                style="@style/width_"
+                android:gravity="center_vertical|center_horizontal" >
+
+                <ImageView
+                    style="@style/main_wrap"
+                    android:background="@drawable/xgmm" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/xtsz_line"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    style="@style/xtsz_text"
+                    android:text="修改密码" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/xtsz_line"
+                android:layout_marginRight="30dp"
+                android:gravity="center_vertical|right" >
+
+                <ImageView
+                    style="@style/main_wrap"
+                    android:background="@drawable/you" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/xtsz_view" />
+
+        <LinearLayout
+            android:id="@+id/line_tczh"
+            style="@style/height_" >
+
+            <LinearLayout
+                style="@style/width_"
+                android:gravity="center_vertical|center_horizontal" >
+
+                <ImageView
+                    style="@style/main_wrap"
+                    android:background="@drawable/tczh" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/xtsz_line"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    style="@style/xtsz_text"
+                    android:text="退出账号" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/xtsz_line"
+                android:layout_marginRight="30dp"
+                android:gravity="center_vertical|right" >
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/you" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#f2f2f2" />
+
+        <LinearLayout style="@style/height_" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#f2f2f2" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/height_" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#f2f2f2" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/height_" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#f2f2f2" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

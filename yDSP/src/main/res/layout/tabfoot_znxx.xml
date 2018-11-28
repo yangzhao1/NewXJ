@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="#edf2f6"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        style="@style/width_"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/line_ysxx"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="19"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="LayoutOnclick" >
+
+            <TextView
+                style="@style/dbsx_text"
+                android:text="已收消息" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom" >
+
+            <View
+                android:id="@+id/view_ysxx"
+                style="@style/dbsx_view_blue"
+                android:visibility="gone" />
+
+            <View style="@style/dbsx_view_grey" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View style="@style/dbsx_view" />
+
+    <LinearLayout
+        style="@style/width_"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/line_yfxx"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="19"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="LayoutOnclick" >
+
+            <TextView
+                style="@style/dbsx_text"
+                android:text="已发消息" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom" >
+
+            <View
+                android:id="@+id/view_yfxx"
+                style="@style/dbsx_view_blue"
+                android:visibility="gone" />
+
+            <View style="@style/dbsx_view_grey" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+     >
+	
+    <ImageView 
+        android:id="@+id/dian"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:src="@drawable/dian"
+        android:layout_marginLeft="5dp"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        />
+    <com.zq.xinjiang.approval.view.CircularRingView
+        android:id="@+id/topButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/dian"
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/user_default"
+        />
+
+    <TextView
+        android:id="@+id/topTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="移动审批系统"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        />
+
+</RelativeLayout>

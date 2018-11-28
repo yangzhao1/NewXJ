@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/YDSP.iml" filepath="$PROJECT_DIR$/YDSP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraryPull/libraryPull.iml" filepath="$PROJECT_DIR$/libraryPull/libraryPull.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yDSP/yDSP.iml" filepath="$PROJECT_DIR$/yDSP/yDSP.iml" />
+    </modules>
+  </component>
+</project>

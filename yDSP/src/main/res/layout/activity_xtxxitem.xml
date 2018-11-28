@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            style="@style/width_"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                style="@style/height_"
+                android:gravity="center_vertical|center_horizontal" >
+
+                <View
+                    android:id="@+id/yd"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/red_circle" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/height_" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="7"
+            android:orientation="vertical" >
+
+            <LinearLayout style="@style/height_" >
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="重擎电子移动审批"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/height_" >
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="时间：" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/width_"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/you" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

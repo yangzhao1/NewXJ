@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="personal">
+        <item>生育收养</item>
+        <item>户籍办理</item>
+        <item>民族宗教</item>
+        <item>教育科研</item>
+        <item>入伍服役</item>
+        <item>就业创业</item>
+        <item>设立变更</item>
+        <item>准营准办</item>
+        <item>抵押质押</item>
+        <item>职业资格</item>
+        <item>行政缴费</item>
+        <item>婚姻登记</item>
+        <item>优待抚恤</item>
+        <item>建设规划</item>
+        <item>住房保障</item>
+        <item>社会保障</item>
+        <item>证件办理</item>
+        <item>交通出行</item>
+        <item>旅游观光</item>
+        <item>出境入境</item>
+        <item>消费维权</item>
+        <item>公共安全</item>
+        <item>司法公证</item>
+        <item>知识产权</item>
+        <item>环保绿化</item>
+        <item>文化体育</item>
+        <item>公用事业</item>
+        <item>医疗卫生</item>
+        <item>离职退休</item>
+        <item>死亡殡葬</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="legal">
+        <item>设立变更</item>
+        <item>准营准办</item>
+        <item>资质认证</item>
+        <item>年检年审</item>
+        <item>税收财务</item>
+        <item>人力资源</item>
+        <item>劳动保障</item>
+        <item>投资审批</item>
+        <item>融资信贷</item>
+        <item>抵押质押</item>
+        <item>商务贸易</item>
+        <item>招标拍卖</item>
+        <item>海关口岸</item>
+        <item>涉外服务</item>
+        <item>农林牧渔</item>
+        <item>国土建设</item>
+        <item>交通运输</item>
+        <item>环保绿化</item>
+        <item>应对气候</item>
+        <item>水务气象</item>
+        <item>医疗卫生</item>
+        <item>科技创新</item>
+        <item>文体教育</item>
+        <item>知识产权</item>
+        <item>民族宗教</item>
+        <item>质量技术</item>
+        <item>检验检疫</item>
+        <item>安全生产</item>
+        <item>公安消防</item>
+        <item>司法公证</item>
+        <item>公用事业</item>
+        <item>法人注销</item>
+        <item>档案文物</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="convenience">
+        <item>天气查询</item>
+        <item>身份证查询</item>
+        <item>万年历/黄历</item>
+        <item>机票预订</item>
+        <item>找工作</item>
+        <item>地图导航</item>
+        <item>商品价格</item>
+        <item>手机归属地</item>
+        <item>快递查询</item>
+    </string-array>
+</resources>

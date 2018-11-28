@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.jiechic.library:xUtils-2.6.14">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xUtils-2.6.14.aar/beb0d758863d728c5b40febd1bfdaa1c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/xUtils-2.6.14.aar/beb0d758863d728c5b40febd1bfdaa1c/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jiechic.library/xUtils/2.6.14/2ed37d4f63d43c6b65b21bdae6172a0951bc3c4a/xUtils-2.6.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/ipsz_tv"
+        android:text="操作流程：" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <LinearLayout
+            style="@style/width_"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <TextView
+                style="@style/wjmm_text_grey"
+                android:text="1" />
+
+            <TextView
+                style="@style/wjmm_tv1"
+                android:text="手机验证" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/width_"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <TextView
+                style="@style/wjmm_text_blue"
+                android:text="2" />
+
+            <TextView
+                style="@style/wjmm_tv1"
+                android:text="设置新密码" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/width_"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <TextView
+                style="@style/wjmm_text_grey"
+                android:text="√" />
+
+            <TextView
+                style="@style/wjmm_tv1"
+                android:text="完成" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <LinearLayout style="@style/width_" >
+
+            <View style="@style/wjmm_view_grey" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/width_" >
+
+            <View style="@style/wjmm_view_blue" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/width_" >
+
+            <View style="@style/wjmm_view_grey" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="30dp"
+        android:background="#f2f2f2" />
+
+    <TextView
+        style="@style/tv"
+        android:layout_marginTop="30dp"
+        android:text="设置新密码" />
+
+    <LinearLayout
+        style="@style/ipsz_line"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_blueline" >
+
+        <EditText
+            android:id="@+id/et_newpassword1"
+            style="@style/et"
+            android:hint="请输入新密码"
+            android:textSize="@dimen/text_16" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/ipsz_line"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_blueline" >
+
+        <EditText
+            android:id="@+id/et_newpassword2"
+            style="@style/et"
+            android:hint="请输入新密码"
+            android:textSize="@dimen/text_16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line_tj"
+        style="@style/line1"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape_bluebtn"
+        android:gravity="center_vertical|center_horizontal" >
+
+        <TextView
+            style="@style/popup_btn"
+            android:text="提     交" />
+    </LinearLayout>
+
+</LinearLayout>

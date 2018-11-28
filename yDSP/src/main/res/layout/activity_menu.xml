@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center_vertical" >
+
+        <RelativeLayout
+            android:layout_width="103dp"
+            android:layout_height="103dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/white_circle" >
+
+            <com.zq.xinjiang.approval.view.RoundImageView
+                android:id="@+id/civ_menu_pic"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/user_default" >
+            </com.zq.xinjiang.approval.view.RoundImageView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="4"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                style="@style/menu_image"
+                android:background="@drawable/xm"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                style="@style/menu_text"
+                android:layout_marginLeft="15dp"
+                android:text="姓名：" />
+
+            <TextView
+                android:id="@+id/tv_xm"
+                style="@style/menu_text"
+                android:text="重擎支持" />
+        </LinearLayout>
+
+        <View style="@style/view_width" />
+
+        <LinearLayout
+            style="@style/menu_line"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                style="@style/menu_image"
+                android:background="@drawable/bm"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                style="@style/menu_text"
+                android:layout_marginLeft="15dp"
+                android:text="部门：" />
+
+            <TextView
+                android:id="@+id/tv_bm"
+                style="@style/menu_text"
+                android:text="管理部门" />
+        </LinearLayout>
+
+        <View style="@style/view_width" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                style="@style/menu_image"
+                android:background="@drawable/dlsj"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/tv_dlsj"
+                style="@style/menu_text"
+                android:layout_marginLeft="15dp"
+                android:text="登录时间：15-10-08 15:35:25" />
+        </LinearLayout>
+
+        <View style="@style/view_width" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                style="@style/menu_image"
+                android:background="@drawable/scdl"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/tv_scdl"
+                style="@style/menu_text"
+                android:layout_marginLeft="15dp"
+                android:text="上次登录：14-12-28 16:25:24" />
+        </LinearLayout>
+
+        <View style="@style/view_width" />
+
+        <LinearLayout
+            style="@style/menu_line"
+            android:layout_gravity="center_vertical" >
+
+            <ImageView
+                style="@style/menu_image"
+                android:background="@drawable/ljbj"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                style="@style/menu_text"
+                android:layout_marginLeft="15dp"
+                android:text="累计办件：" />
+
+            <TextView
+                android:id="@+id/tv_ljbj"
+                style="@style/menu_text"
+                android:text="75件" />
+        </LinearLayout>
+
+        <View style="@style/view_width" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/height_"
+        android:baselineAligned="false" >
+    </LinearLayout>
+
+</LinearLayout>

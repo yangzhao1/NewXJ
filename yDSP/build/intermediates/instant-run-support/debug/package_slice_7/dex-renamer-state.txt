@@ -1,0 +1,4 @@
+#Wed Nov 28 15:53:33 CST 2018
+base.0=E\:\\AndroidDemo\\YDSP\\yDSP\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+path.0=classes.dex
+renamed.0=classes.dex

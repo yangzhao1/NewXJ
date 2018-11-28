@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="statistics_in_circle_txt">15dp</dimen>
+    <dimen name="statistics_circle_radius">7dp</dimen>
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_15">15sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+
+//标准的一套字体
+    <dimen name="text_sosmall">12sp</dimen>
+    <dimen name="text_small">15sp</dimen>
+    <dimen name="text_middle">17sp</dimen>
+    <dimen name="text_big">19sp</dimen>
+//大 的一套字体
+    <dimen name="text_sosmall2">15sp</dimen>
+    <dimen name="text_small2">17sp</dimen>
+    <dimen name="text_middle2">18sp</dimen>
+    <dimen name="text_big2">22sp</dimen>
+//超大的一套字体
+    <dimen name="text_sosmall3">18sp</dimen>
+    <dimen name="text_small3">19sp</dimen>
+    <dimen name="text_middle3">20sp</dimen>
+    <dimen name="text_big3">25sp</dimen>
+
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">80dp</dimen>
+    <dimen name="a">0.1dp</dimen>
+    <dimen name="textsize">20sp</dimen>
+    <dimen name="textsize_large">25sp</dimen>
+    <dimen name="textsize_smalle">14sp</dimen>
+    <dimen name="linespacing">35dp</dimen>
+</resources>

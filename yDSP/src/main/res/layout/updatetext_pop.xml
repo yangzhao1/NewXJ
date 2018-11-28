@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/gray_shape"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_small"
+            android:gravity="center"
+            android:background="@color/theme_color"
+            android:text="一  修改信息  一"
+            />
+
+        <EditText
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_small"
+            android:gravity="bottom|center_horizontal"
+            android:background="@null"
+            android:text="个人"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:paddingLeft="3dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/theme_color"/>
+
+        <TextView
+            android:id="@+id/comlaint"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="确定"
+            android:textColor="@color/theme_color"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

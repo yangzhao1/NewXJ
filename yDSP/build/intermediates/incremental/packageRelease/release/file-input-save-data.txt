@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Wed Nov 28 16:19:21 CST 2018
+1.base=E\:\\AndroidDemo\\YDSP\\yDSP\\build\\intermediates\\assets\\release
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=classes.dex
+0.set=DEX
+0.base=E\:\\AndroidDemo\\YDSP\\yDSP\\build\\intermediates\\transforms\\dex\\release\\0
+1.path=simkai.ttf

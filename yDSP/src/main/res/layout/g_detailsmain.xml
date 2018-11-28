@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/g_titlebar"></include>
+
+    <com.zq.xinjiang.government.tool.MyScrollview
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bg_white"
+                android:padding="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="@color/theme_color"
+                    android:text="我是标题我是标我"
+                    android:textSize="?textsize2"
+                    android:gravity="center"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="?textsizes"
+                        android:textColor="@color/black"
+                        android:text="权利编码： "
+                        />
+                    <TextView
+                        android:id="@+id/itemcode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="内容"
+                        android:textSize="?textsizes"
+
+                        android:lines="1"
+                        android:textColor="@color/black"
+                        />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/line"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:text="权利类型： "
+                        android:textSize="?textsizes"
+
+                        />
+                    <TextView
+                        android:id="@+id/itemproperty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="内容"
+                        android:textSize="?textsizes"
+                        android:lines="1"
+                        android:textColor="@color/black"
+
+                        />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/line"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:text="服务窗口： "
+                        android:textSize="?textsizes"
+
+                        />
+                    <TextView
+                        android:id="@+id/windowid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="内容"
+                        android:textSize="?textsizes"
+
+                        android:lines="1"
+                        android:textColor="@color/black"
+                        />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/line"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="?textsizes"
+
+                        android:textColor="@color/black"
+                        android:text="受理部门： "
+                        />
+                    <TextView
+                        android:id="@+id/orgname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="?textsizes"
+
+                        android:text="内容"
+                        android:lines="1"
+                        android:textColor="@color/black"
+                        />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/line"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="?textsizes"
+
+                        android:textColor="@color/black"
+                        android:text="事项类型： "
+                        />
+                    <TextView
+                        android:id="@+id/itemtype"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="内容"
+                        android:lines="1"
+                        android:textSize="?textsizes"
+
+                        android:textColor="@color/black"
+                        />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/line"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="?textsizes"
+
+                        android:textColor="@color/black"
+                        android:text="承诺时限： "
+                        />
+                    <TextView
+                        android:id="@+id/limittime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="内容"
+                        android:textSize="?textsizes"
+
+                        android:lines="1"
+                        android:textColor="@color/black"
+                        />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/line"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textSize="?textsizes"
+
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:text="法定时限： "
+                        />
+                    <TextView
+                        android:id="@+id/limitlegaltime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="?textsizes"
+
+                        android:text="内容"
+                        android:lines="1"
+                        android:textColor="@color/black"
+                        />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/line"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="?textsizes"
+
+                        android:textColor="@color/black"
+                        android:text="咨询电话： "
+                        />
+                    <TextView
+                        android:id="@+id/orgphone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="内容"
+                        android:textSize="?textsizes"
+
+                        android:lines="1"
+                        android:textColor="@color/black"
+                        />
+                </LinearLayout>
+             </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/interval"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:id="@+id/conditions_declare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="?textsize2"
+                    android:textColor="@color/theme_color"
+                    android:text="申报条件"/>
+                <TextView
+                    android:id="@+id/legal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="?textsize2"
+                    android:textColor="@color/black"
+                    android:text="审批依据"/>
+                <TextView
+                    android:id="@+id/charging"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="?textsize2"
+                    android:textColor="@color/black"
+                    android:text="收费情况"/>
+                <TextView
+                    android:id="@+id/tableDownload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="?textsize2"
+                    android:textColor="@color/black"
+                    android:text="表格下载"/>
+            </LinearLayout>
+
+            <com.zq.xinjiang.government.view.ScrllorTabTextView
+                android:id="@+id/scrollTab"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                />
+
+            <com.zq.xinjiang.government.view.MyViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_marginTop="3dp"
+                android:layout_height="wrap_content">
+
+            </com.zq.xinjiang.government.view.MyViewPager>
+        </LinearLayout>
+    </com.zq.xinjiang.government.tool.MyScrollview>
+</LinearLayout>

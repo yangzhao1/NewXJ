@@ -1,0 +1,1282 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:2:1-674:12
+INJECTED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:2:1-674:12
+INJECTED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:2:1-674:12
+INJECTED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:2:1-674:12
+MERGED from [:libraryPull] E:\AndroidDemo\YDSP\libraryPull\build\intermediates\manifests\full\release\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\8ce6389adffb77c23e2a59cc34a560ea\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.4.0.aar\ef51ca93253ea49ca4bac9d1dbe9178e\AndroidManifest.xml:16:1-20:12
+MERGED from [com.lcodecorex:tkrefreshlayout:1.0.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\tkrefreshlayout-1.0.7.aar\e6f033f0184e03d4462effcc147cb2e4\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\c9361c4f9255be18c9d86427e372aec5\AndroidManifest.xml:17:1-28:12
+MERGED from [com.jiechic.library:xUtils:2.6.14] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\xUtils-2.6.14.aar\beb0d758863d728c5b40febd1bfdaa1c\AndroidManifest.xml:2:1-13:12
+MERGED from [com.youth.banner:banner:1.4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\banner-1.4.9.aar\147d5f183d5ae861412e1e47e6f57433\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-base-8.4.0.aar\8fe13ae51e60903e954ab4c8be6fd736\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\87a6f6baa5f56f01340b026552000b50\AndroidManifest.xml:16:1-26:12
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\9258bc57852d80f25ca262a00abe4901\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\97192ed3865d78c3c5cae37ed4f62ff6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\18f10b55bdad0aafe25702b4ff1e81cf\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\15d9795ee822a97bcd0cea2a30b0916e\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\dad171c0174f94b412d79372ba545ceb\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\47bc598d82c5c3d4716821b01db0f99d\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\fa96bc8bfec754a5e8daa0eaf4c18cc7\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\f6a8b2592b5f73c65d6b92205535d7fb\AndroidManifest.xml:17:1-31:12
+INJECTED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:2:1-674:12
+INJECTED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:2:1-674:12
+INJECTED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:2:1-674:12
+	package
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [:libraryPull] E:\AndroidDemo\YDSP\libraryPull\build\intermediates\manifests\full\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:libraryPull] E:\AndroidDemo\YDSP\libraryPull\build\intermediates\manifests\full\release\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\8ce6389adffb77c23e2a59cc34a560ea\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\8ce6389adffb77c23e2a59cc34a560ea\AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.4.0.aar\ef51ca93253ea49ca4bac9d1dbe9178e\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.4.0.aar\ef51ca93253ea49ca4bac9d1dbe9178e\AndroidManifest.xml:18:5-42
+MERGED from [com.lcodecorex:tkrefreshlayout:1.0.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\tkrefreshlayout-1.0.7.aar\e6f033f0184e03d4462effcc147cb2e4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.lcodecorex:tkrefreshlayout:1.0.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\tkrefreshlayout-1.0.7.aar\e6f033f0184e03d4462effcc147cb2e4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\c9361c4f9255be18c9d86427e372aec5\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\c9361c4f9255be18c9d86427e372aec5\AndroidManifest.xml:20:5-43
+MERGED from [com.jiechic.library:xUtils:2.6.14] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\xUtils-2.6.14.aar\beb0d758863d728c5b40febd1bfdaa1c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jiechic.library:xUtils:2.6.14] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\xUtils-2.6.14.aar\beb0d758863d728c5b40febd1bfdaa1c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.youth.banner:banner:1.4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\banner-1.4.9.aar\147d5f183d5ae861412e1e47e6f57433\AndroidManifest.xml:7:5-9:41
+MERGED from [com.youth.banner:banner:1.4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\banner-1.4.9.aar\147d5f183d5ae861412e1e47e6f57433\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-base-8.4.0.aar\8fe13ae51e60903e954ab4c8be6fd736\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-base-8.4.0.aar\8fe13ae51e60903e954ab4c8be6fd736\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\87a6f6baa5f56f01340b026552000b50\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\87a6f6baa5f56f01340b026552000b50\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\9258bc57852d80f25ca262a00abe4901\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\9258bc57852d80f25ca262a00abe4901\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\97192ed3865d78c3c5cae37ed4f62ff6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\97192ed3865d78c3c5cae37ed4f62ff6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\18f10b55bdad0aafe25702b4ff1e81cf\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\18f10b55bdad0aafe25702b4ff1e81cf\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\15d9795ee822a97bcd0cea2a30b0916e\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\15d9795ee822a97bcd0cea2a30b0916e\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\dad171c0174f94b412d79372ba545ceb\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\dad171c0174f94b412d79372ba545ceb\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\47bc598d82c5c3d4716821b01db0f99d\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\47bc598d82c5c3d4716821b01db0f99d\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\fa96bc8bfec754a5e8daa0eaf4c18cc7\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\fa96bc8bfec754a5e8daa0eaf4c18cc7\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\f6a8b2592b5f73c65d6b92205535d7fb\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\f6a8b2592b5f73c65d6b92205535d7fb\AndroidManifest.xml:21:5-23:58
+INJECTED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\8ce6389adffb77c23e2a59cc34a560ea\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml
+supports-screens
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:11:5-16:40
+	android:largeScreens
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:13:9-36
+	android:smallScreens
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:15:9-36
+	android:normalScreens
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:14:9-37
+	android:xlargeScreens
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:16:9-37
+	android:anyDensity
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:12:9-34
+uses-permission#android.permission.INTERNET
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:19:5-67
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:19:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:21:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:24:5-85
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:24:22-82
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:26:22-78
+uses-feature#android.hardware.camera
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:28:5-60
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:28:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:29:5-70
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:29:19-67
+uses-permission#android.permission.CAMERA
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:31:5-65
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:31:22-62
+application
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:34:5-672:19
+MERGED from [:libraryPull] E:\AndroidDemo\YDSP\libraryPull\build\intermediates\manifests\full\release\AndroidManifest.xml:11:5-20
+MERGED from [:libraryPull] E:\AndroidDemo\YDSP\libraryPull\build\intermediates\manifests\full\release\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\8ce6389adffb77c23e2a59cc34a560ea\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\8ce6389adffb77c23e2a59cc34a560ea\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.4.0.aar\ef51ca93253ea49ca4bac9d1dbe9178e\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.4.0.aar\ef51ca93253ea49ca4bac9d1dbe9178e\AndroidManifest.xml:19:5-20
+MERGED from [com.lcodecorex:tkrefreshlayout:1.0.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\tkrefreshlayout-1.0.7.aar\e6f033f0184e03d4462effcc147cb2e4\AndroidManifest.xml:11:5-15:19
+MERGED from [com.lcodecorex:tkrefreshlayout:1.0.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\tkrefreshlayout-1.0.7.aar\e6f033f0184e03d4462effcc147cb2e4\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\c9361c4f9255be18c9d86427e372aec5\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\c9361c4f9255be18c9d86427e372aec5\AndroidManifest.xml:22:5-26:19
+MERGED from [com.jiechic.library:xUtils:2.6.14] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\xUtils-2.6.14.aar\beb0d758863d728c5b40febd1bfdaa1c\AndroidManifest.xml:11:5-20
+MERGED from [com.jiechic.library:xUtils:2.6.14] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\xUtils-2.6.14.aar\beb0d758863d728c5b40febd1bfdaa1c\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\87a6f6baa5f56f01340b026552000b50\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\87a6f6baa5f56f01340b026552000b50\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\9258bc57852d80f25ca262a00abe4901\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\9258bc57852d80f25ca262a00abe4901\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\97192ed3865d78c3c5cae37ed4f62ff6\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\97192ed3865d78c3c5cae37ed4f62ff6\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\18f10b55bdad0aafe25702b4ff1e81cf\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\18f10b55bdad0aafe25702b4ff1e81cf\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\15d9795ee822a97bcd0cea2a30b0916e\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\15d9795ee822a97bcd0cea2a30b0916e\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\dad171c0174f94b412d79372ba545ceb\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\dad171c0174f94b412d79372ba545ceb\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\47bc598d82c5c3d4716821b01db0f99d\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\47bc598d82c5c3d4716821b01db0f99d\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\fa96bc8bfec754a5e8daa0eaf4c18cc7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\fa96bc8bfec754a5e8daa0eaf4c18cc7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\f6a8b2592b5f73c65d6b92205535d7fb\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\f6a8b2592b5f73c65d6b92205535d7fb\AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from [com.lcodecorex:tkrefreshlayout:1.0.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\tkrefreshlayout-1.0.7.aar\e6f033f0184e03d4462effcc147cb2e4\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:38:9-41
+	android:icon
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:37:9-37
+	android:allowBackup
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:35:9-35
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:36:9-84
+activity#com.zq.xinjiang.government.activity.G_WelcomeActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:40:9-50:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:43:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:42:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:45:4-55
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:44:13-47
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:41:13-81
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:46:13-49:29
+action#android.intent.action.MAIN
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:47:17-69
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:47:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:48:17-77
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:48:27-74
+activity#com.zq.xinjiang.approval.aactivity.LoginActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:51:9-57:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:54:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:53:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:56:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:55:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:52:13-76
+activity#com.zq.xinjiang.approval.aactivity.IPSheZhiActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:58:9-64:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:61:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:60:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:63:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:62:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:59:13-79
+activity#com.zq.xinjiang.approval.aactivity.SzxmmActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:65:9-71:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:68:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:67:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:70:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:69:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:66:13-76
+activity#com.zq.xinjiang.approval.aactivity.WcActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:72:9-78:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:75:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:74:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:77:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:76:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:73:13-73
+activity#com.zq.xinjiang.approval.aactivity.WjmmActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:79:9-85:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:82:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:81:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:84:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:83:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:80:13-75
+activity#com.zq.xinjiang.approval.aactivity.ShenPiYiJianActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:86:9-92:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:89:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:88:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:91:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:90:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:87:13-83
+activity#com.zq.xinjiang.approval.aactivity.BanJianXiangQingActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:93:9-99:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:96:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:95:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:98:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:97:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:94:13-87
+activity#com.zq.xinjiang.approval.homeactivity.BuMenBanJianActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:100:9-106:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:103:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:102:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:105:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:104:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:101:13-86
+activity#com.zq.xinjiang.approval.activity.BmybShowListActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:107:9-113:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:110:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:109:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:112:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:111:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:108:13-82
+activity#com.zq.xinjiang.approval.aactivity.DuBanActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:114:9-120:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:117:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:116:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:119:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:118:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:115:13-76
+activity#com.zq.xinjiang.approval.homeactivity.ShouFeiFenXiActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:121:9-128:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:125:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:124:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:123:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:127:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:126:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:122:13-86
+activity#com.zq.xinjiang.approval.activity.SflbActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:129:9-136:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:133:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:132:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:131:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:135:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:134:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:130:13-74
+activity#com.zq.xinjiang.approval.activity.BaoYanChuLiActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:137:9-144:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:141:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:140:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:139:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:143:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:142:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:138:13-81
+activity#com.zq.xinjiang.approval.aactivity.ChaKanDuanXiaoXiActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:145:9-151:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:148:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:147:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:150:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:149:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:146:13-87
+activity#com.zq.xinjiang.approval.aactivity.FaSongDuanXiaoXiActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:152:9-158:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:155:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:154:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:157:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:156:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:153:13-87
+activity#com.zq.xinjiang.approval.aactivity.FaSongDuanXiaoXiActivity1
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:159:9-165:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:162:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:161:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:164:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:163:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:160:13-88
+activity#com.zq.xinjiang.approval.aactivity.FaSongDuanXiaoXiActivity2
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:166:9-172:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:169:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:168:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:171:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:170:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:167:13-88
+activity#com.zq.xinjiang.approval.activity.XzsjrActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:173:9-179:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:176:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:175:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:178:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:177:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:174:13-75
+activity#com.zq.xinjiang.approval.activity.XzsjrActivity1
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:180:9-186:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:183:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:182:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:185:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:184:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:181:13-76
+activity#com.zq.xinjiang.approval.aactivity.XuanZeShouJianRenActivity3
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:187:9-193:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:190:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:189:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:192:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:191:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:188:13-89
+activity#com.zq.xinjiang.approval.homeactivity.XiTongSheZhiActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:194:9-200:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:197:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:196:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:199:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:198:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:195:13-86
+activity#com.zq.xinjiang.approval.homeactivity.UserCenterActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:201:9-207:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:204:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:203:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:206:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:205:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:202:13-84
+activity#com.zq.xinjiang.approval.activity.EwmActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:208:9-214:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:211:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:210:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:213:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:212:13-43
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:209:13-73
+activity#com.zq.xinjiang.approval.aactivity.XiTongXiaoXiActivity1
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:215:9-221:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:218:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:217:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:220:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:219:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:216:13-84
+activity#com.zq.xinjiang.approval.aactivity.XiTongXiaoXiActivity2
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:222:9-228:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:225:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:224:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:227:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:226:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:223:13-84
+activity#com.zq.xinjiang.approval.activity.YhfkActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:229:9-235:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:232:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:231:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:234:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:233:13-43
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:230:13-74
+activity#com.zq.xinjiang.approval.aactivity.YongHuFanKuiActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:236:9-242:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:239:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:238:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:241:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:240:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:237:13-83
+activity#com.zq.xinjiang.approval.view.pic.AlbumActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:243:9-248:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:246:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:245:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:247:13-64
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:244:13-75
+activity#com.zq.xinjiang.approval.view.pic.GalleryActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:249:9-254:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:252:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:251:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:253:13-64
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:250:13-77
+activity#com.zq.xinjiang.approval.view.pic1.TestPicActivity1
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:255:9-261:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:258:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:257:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:260:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:259:13-43
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:256:13-79
+activity#com.zq.xinjiang.approval.view.pic1.ImageGridActivity1
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:262:9-268:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:265:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:264:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:267:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:266:13-43
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:263:13-81
+activity#com.zq.xinjiang.approval.view.pic1.PhotoActivity1
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:269:9-275:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:272:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:271:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:274:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:273:13-60
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:270:13-77
+activity#com.zq.xinjiang.approval.aactivity.GuanYuWoMenActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:276:9-282:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:279:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:278:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:281:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:280:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:277:13-82
+activity#com.zq.xinjiang.approval.aactivity.XiuGaiMiMaActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:283:9-289:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:286:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:285:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:288:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:287:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:284:13-81
+activity#com.zq.xinjiang.approval.homeactivity.DaiBanShiXiangActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:290:9-296:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:293:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:292:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:295:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:294:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:291:13-88
+activity#com.zq.xinjiang.approval.homeactivity.GeRenBanJianActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:297:9-303:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:300:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:299:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:302:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:301:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:298:13-86
+activity#com.zq.xinjiang.approval.fragment.BuMenBanJianFragment
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:304:9-310:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:308:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:306:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:309:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:307:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:305:13-82
+activity#com.zq.xinjiang.approval.homeactivity.YiChangBanJianActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:311:9-317:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:314:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:313:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:316:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:315:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:312:13-88
+activity#com.zq.xinjiang.approval.aactivity.ShouFeiLieBiaoActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:318:9-324:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:321:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:320:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:323:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:322:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:319:13-85
+activity#com.zq.xinjiang.approval.homeactivity.BaoYanPiShiActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:325:9-331:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:328:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:327:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:330:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:329:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:326:13-85
+activity#com.zq.xinjiang.approval.homeactivity.ZhanNeiXiaoXiActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:332:9-338:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:335:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:334:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:337:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:336:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:333:13-87
+activity#com.zq.xinjiang.approval.homeactivity.yichangbanjianbuyong
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:339:9-345:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:342:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:341:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:344:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:343:13-43
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:340:13-86
+activity#com.zq.xinjiang.approval.homeactivity.MainActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:346:9-352:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:349:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:348:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:351:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:350:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:347:13-78
+activity#com.zq.xinjiang.approval.aactivity.ChaKanYiFaXiaoXiActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:353:9-359:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:356:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:355:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:358:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:357:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:354:13-87
+activity#com.zq.xinjiang.approval.aactivity.BaoYanXiangQingActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:360:9-366:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:363:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:362:13-45
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:365:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:364:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:361:13-86
+activity#com.zq.xinjiang.approval.homeactivity.XiaoNengFenXiActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:367:9-374:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:372:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:370:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:369:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:373:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:371:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:368:13-87
+activity#com.zq.xinjiang.government.activity.G_MainActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:376:9-383:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:381:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:379:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:378:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:382:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:380:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:377:13-78
+activity#com.zq.xinjiang.government.activity.G_ConsultComplaint
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:384:9-391:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:389:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:387:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:386:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:390:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:388:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:385:13-82
+activity#com.zq.xinjiang.government.activity.G_PersonTheme
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:392:9-399:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:397:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:395:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:394:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:398:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:396:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:393:13-77
+activity#com.zq.xinjiang.government.activity.G_InteractionActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:400:9-407:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:405:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:403:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:402:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:406:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:404:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:401:13-85
+activity#com.zq.xinjiang.government.activity.G_ItemDetailsActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:408:9-415:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:413:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:411:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:410:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:414:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:412:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:409:13-85
+activity#com.zq.xinjiang.government.activity.G_ProgSearchActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:416:9-423:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:421:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:419:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:418:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:422:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:420:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:417:13-84
+activity#com.zq.xinjiang.government.activity.G_InterDetailsActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:424:9-431:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:429:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:427:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:426:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:430:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:428:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:425:13-86
+activity#com.zq.xinjiang.government.activity.G_HotItemsActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:432:9-439:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:437:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:435:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:434:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:438:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:436:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:433:13-82
+activity#com.zq.xinjiang.government.activity.G_DoShowActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:440:9-447:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:445:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:443:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:442:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:446:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:444:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:441:13-80
+activity#com.zq.xinjiang.government.activity.G_CenterDynamicActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:448:9-455:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:453:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:451:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:450:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:454:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:452:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:449:13-87
+activity#com.zq.xinjiang.government.activity.G_CenterShowActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:456:9-463:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:461:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:459:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:458:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:462:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:460:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:457:13-84
+activity#com.zq.xinjiang.government.activity.G_NewsDetails
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:464:9-471:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:469:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:467:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:466:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:470:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:468:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:465:13-77
+activity#com.zq.xinjiang.government.activity.G_OnlineManageActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:472:9-479:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:477:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:475:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:474:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:478:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:476:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:473:13-86
+activity#com.zq.xinjiang.government.activity.G_OnlineBooking
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:480:9-487:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:485:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:483:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:482:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:486:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:484:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:481:13-79
+activity#com.zq.xinjiang.government.activity.G_ConvenItemActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:488:9-495:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:493:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:491:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:490:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:494:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:492:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:489:13-84
+activity#com.zq.xinjiang.government.activity.G_MyCollectActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:496:9-503:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:501:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:499:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:498:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:502:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:500:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:497:13-83
+activity#com.zq.xinjiang.government.activity.G_MyConsultActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:504:9-511:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:509:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:507:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:506:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:510:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:508:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:505:13-83
+activity#com.zq.xinjiang.government.activity.G_MyEvaluateActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:512:9-519:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:517:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:515:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:514:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:518:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:516:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:513:13-84
+activity#com.zq.xinjiang.government.activity.G_MyMessageActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:520:9-527:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:525:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:523:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:522:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:526:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:524:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:521:13-83
+activity#com.zq.xinjiang.government.activity.G_MySettingActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:528:9-535:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:533:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:531:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:530:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:534:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:532:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:529:13-83
+activity#com.zq.xinjiang.government.activity.G_MySubcribleActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:536:9-543:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:541:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:539:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:538:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:542:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:540:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:537:13-85
+activity#com.zq.xinjiang.government.activity.G_MyThingActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:544:9-551:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:549:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:547:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:546:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:550:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:548:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:545:13-81
+activity#com.zq.xinjiang.government.activity.G_MyThingsDetails
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:552:9-559:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:557:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:555:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:554:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:558:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:556:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:553:13-81
+activity#com.zq.xinjiang.government.activity.G_MyMessageDetailsActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:560:9-567:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:565:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:563:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:562:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:566:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:564:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:561:13-90
+activity#com.zq.xinjiang.government.activity.G_RegisterActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:568:9-575:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:573:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:571:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:570:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:574:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:572:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:569:13-82
+activity#com.zq.xinjiang.government.activity.G_LoginActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:576:9-583:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:581:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:579:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:578:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:582:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:580:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:577:13-79
+activity#com.zq.xinjiang.government.activity.G_UpdatePWActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:584:9-591:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:589:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:587:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:586:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:590:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:588:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:585:13-82
+activity#com.zq.xinjiang.government.activity.G_MyInfoActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:592:9-599:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:597:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:595:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:594:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:598:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:596:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:593:13-80
+activity#com.zq.xinjiang.government.activity.G_NotificateActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:600:9-607:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:605:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:603:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:602:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:606:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:604:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:601:13-84
+activity#com.zq.xinjiang.government.activity.G_PoliciesActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:608:9-615:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:613:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:611:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:610:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:614:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:612:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:609:13-82
+activity#com.zq.xinjiang.government.activity.G_HallDepartActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:616:9-623:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:621:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:619:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:618:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:622:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:620:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:617:13-84
+activity#com.zq.xinjiang.government.activity.G_AboutAppActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:624:9-631:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:629:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:627:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:626:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:630:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:628:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:625:13-82
+activity#com.zq.xinjiang.government.activity.G_WebActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:632:9-639:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:637:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:635:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:634:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:638:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:636:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:633:13-77
+activity#com.zq.xinjiang.government.activity.G_ConvenAllActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:640:9-647:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:645:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:643:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:642:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:646:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:644:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:641:13-83
+activity#com.zq.xinjiang.government.activity.G_WelcomeOneActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:648:9-655:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:653:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:651:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:650:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:654:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:652:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:649:13-84
+activity#com.zq.xinjiang.approval.aactivity.WelcomeActivity
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:656:9-663:20
+	android:screenOrientation
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:661:13-49
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:659:13-45
+	android:hardwareAccelerated
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:658:13-48
+	android:windowSoftInputMode
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:662:13-64
+	android:theme
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:660:13-57
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:657:13-78
+service#com.zq.xinjiang.approval.service.UpdateService
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:664:9-667:19
+	android:label
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:666:13-45
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:665:13-74
+meta-data#com.google.android.gms.version
+ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:669:9-671:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\87a6f6baa5f56f01340b026552000b50\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\87a6f6baa5f56f01340b026552000b50\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:671:13-66
+	android:name
+		ADDED from E:\AndroidDemo\YDSP\yDSP\src\main\AndroidManifest.xml:670:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\c9361c4f9255be18c9d86427e372aec5\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\fa96bc8bfec754a5e8daa0eaf4c18cc7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\fa96bc8bfec754a5e8daa0eaf4c18cc7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\f6a8b2592b5f73c65d6b92205535d7fb\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\f6a8b2592b5f73c65d6b92205535d7fb\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\c9361c4f9255be18c9d86427e372aec5\AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\c9361c4f9255be18c9d86427e372aec5\AndroidManifest.xml:24:13-51

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+    <TextView
+        style="@style/xtsz_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="改善了查询功能"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <View style="@style/xtsz_view" />
+
+     <TextView
+        style="@style/xtsz_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="新增了查询加载提示功能"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <View style="@style/xtsz_view" />
+    
+     <TextView
+        style="@style/xtsz_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="改善了版本更新样式"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <View style="@style/xtsz_view" />
+    
+    <TextView
+        style="@style/xtsz_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="解决了一些已知问题"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <View style="@style/xtsz_view" />
+    
+
+</LinearLayout>

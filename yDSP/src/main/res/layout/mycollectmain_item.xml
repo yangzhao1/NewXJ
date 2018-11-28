@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/itemname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="我是标题"
+            android:textColor="@color/black"
+            android:textSize="?textsizes" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/collecttext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="收藏时间："
+                android:textSize="?textsosmall" />
+
+            <TextView
+                android:id="@+id/collecttime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/collecttext"
+                android:gravity="center"
+                android:text="2017-09-13"
+                android:layout_centerVertical="true"
+
+                android:textSize="?textsosmall" />
+
+            <TextView
+                android:id="@+id/cancelCollect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:background="@drawable/halltype_shape"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:textColor="@color/theme_color"
+                android:paddingRight="10dp"
+                android:text="取消收藏"
+                android:textSize="?textsosmall" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/line"/>
+
+</LinearLayout>

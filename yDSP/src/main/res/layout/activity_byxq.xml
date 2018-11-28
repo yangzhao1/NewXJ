@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/titlebg" >
+
+        <ImageView
+            android:id="@+id/return_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:src="@drawable/return_to_main" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="报延批示"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_byr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:text="报延人"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_15" />
+
+            <TextView
+                android:id="@+id/tv_bysx"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:text="报延事项"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_15" />
+
+            <TextView
+                android:id="@+id/tv_bylsh"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:text="流水号"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_15" />
+
+            <TextView
+                android:id="@+id/tv_bygzr"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:text="报延工作日"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_15" />
+
+            <TextView
+                android:id="@+id/tv_byyy"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="报延原因"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_15" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/dotted_line" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="5"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                style="@style/height_"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="批示意见："
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_15" />
+
+                    <ImageView
+                        android:id="@+id/image_wty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/weixuanzhong"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/image_ty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/xuanzhong" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="同意"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_15" />
+
+                    <ImageView
+                        android:id="@+id/image_wbh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:background="@drawable/weixuanzhong" />
+
+                    <ImageView
+                        android:id="@+id/image_bh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:background="@drawable/xuanzhong"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="驳回"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="批示工作日："
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_15" />
+
+                    <RelativeLayout
+                        android:layout_width="50dp"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/shape_white" >
+
+                        <EditText
+                            android:id="@+id/et_psgzr"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="center_horizontal"
+                            android:text="1"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_15" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="个工作日"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_15" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/shape_white" >
+
+                    <EditText
+                        android:id="@+id/et_spyj"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="10dp"
+                        android:background="@null"
+                        android:gravity="left"
+                        android:hint="请输入批示意见"
+                        android:maxLength="100"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_15" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3" >
+
+                <LinearLayout style="@style/width_" >
+
+                    <LinearLayout
+                        android:id="@+id/line_tj"
+                        style="@style/line1"
+                        android:background="@drawable/shape_bluebtn"
+                        android:gravity="center_vertical|center_horizontal" >
+
+                        <TextView
+                            style="@style/popup_btn"
+                            android:text="提     交" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout style="@style/width_" >
+
+                    <LinearLayout
+                        android:id="@+id/line_qx"
+                        style="@style/line1"
+                        android:background="@drawable/shape_greybtn"
+                        android:gravity="center_vertical|center_horizontal" >
+
+                        <TextView
+                            style="@style/popup_btn"
+                            android:text="取     消" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

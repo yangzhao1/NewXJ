@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toast_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:shadowRadius="2.75"
+        android:layout_margin="10dp"
+        android:text="再按一次将推出系统!"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:typeface="serif" />
+
+</LinearLayout>

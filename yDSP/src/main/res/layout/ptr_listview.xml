@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/line_"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout style="@style/height_"
+            android:layout_marginTop="20dp" >
+
+            <LinearLayout style="@style/width_" >
+
+                <LinearLayout
+                    android:id="@+id/line_qsrq"
+                    style="@style/dbsx_line"
+                    android:background="@drawable/shape_blueline" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3" >
+
+                        <TextView
+                            android:id="@+id/tv_qsrq"
+                            style="@style/dbsx_tv"
+                            android:hint="起始日期" />
+                    </LinearLayout>
+
+                    <RelativeLayout style="@style/width_" >
+
+                        <Button
+                            android:id="@+id/btn_qsrq"
+                            style="@style/dbsx_btn"
+                            android:background="@drawable/rl" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="至"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_15" />
+
+            <LinearLayout style="@style/width_" >
+
+                <LinearLayout
+                    android:id="@+id/line_jzrq"
+                    style="@style/dbsx_line"
+                    android:background="@drawable/shape_blueline" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3" >
+
+                        <TextView
+                            android:id="@+id/tv_jzrq"
+                            style="@style/dbsx_tv"
+                            android:hint="截止日期" />
+                    </LinearLayout>
+
+                    <RelativeLayout style="@style/width_" >
+
+                        <Button
+                            android:id="@+id/btn_jzrq"
+                            style="@style/dbsx_btn"
+                            android:background="@drawable/rl" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/height_" >
+
+            <LinearLayout style="@style/dbsx_line" >
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                     >
+
+                    <Spinner
+                        android:id="@+id/sp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/shape_blueline"
+                        android:entries="@array/list"
+                        android:paddingLeft="10dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/sj"/>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical|center_horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/shape_blueline" >
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="2" >
+
+                            <EditText
+                                android:id="@+id/et_ss"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="10dp"
+                                android:background="@null"
+                                android:hint="输入查询信息"
+                                android:singleLine="true"
+                                android:textSize="@dimen/text_15" />
+                        </LinearLayout>
+
+                        <RelativeLayout style="@style/width_" >
+
+                            <Button
+                                android:id="@+id/btn_ss"
+                                style="@style/dbsx_btn"
+                                android:background="@drawable/ss" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/image_shang"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shang"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/image_xia"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xia" />
+    </LinearLayout>
+
+    <!-- The PullToRefreshListView replaces a standard ListView widget. -->
+    <LinearLayout
+        android:id="@+id/noDataLin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        >
+        <ImageView
+            android:id="@+id/nodata"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/no_data"
+            />
+    </LinearLayout>
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/pull_refresh_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="#19000000"
+        android:dividerHeight="1dp"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true" />
+
+</LinearLayout>

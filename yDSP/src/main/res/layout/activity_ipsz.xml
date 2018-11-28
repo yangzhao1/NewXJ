@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/titlebg" >
+
+        <ImageView
+            android:id="@+id/return_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:src="@drawable/return_to_main" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="IP设置"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <TextView
+            style="@style/ipsz_tv"
+            android:text="设置服务器地址" />
+
+        <LinearLayout
+            style="@style/ipsz_line"
+            android:gravity="center_vertical"
+            android:background="@drawable/shape_blueline" >
+
+            <TextView
+                style="@style/ipsz_tv1"
+                android:text="地址：" />
+
+            <View style="@style/ipsz_view"
+                android:visibility="gone"
+                />
+
+            <EditText
+                android:id="@+id/et_dz"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text=""
+                android:padding="10dp"
+                android:paddingLeft="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/ipsz_line"
+            android:visibility="gone"
+            android:background="@drawable/shape_blueline" >
+
+            <TextView
+                style="@style/ipsz_tv1"
+                android:text="端口" />
+
+            <View style="@style/ipsz_view" />
+
+            <EditText
+                android:id="@+id/et_dk"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@null"
+                android:inputType="number"
+                android:paddingLeft="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/ipsz_line"
+            android:visibility="gone"
+            android:background="@drawable/shape_blueline" >
+
+            <TextView
+                style="@style/ipsz_tv1"
+                android:text="站点" />
+
+            <View style="@style/ipsz_view" />
+
+            <EditText
+                android:id="@+id/et_zd"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@null"
+                android:paddingLeft="15dp"
+                android:inputType="textUri" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp" >
+
+            <LinearLayout style="@style/width_" >
+
+                <LinearLayout
+                    android:id="@+id/line_submit"
+                    style="@style/line1"
+                    android:background="@drawable/shape_bluebtn"
+                    android:gravity="center_vertical|center_horizontal" >
+
+                    <TextView
+                        style="@style/popup_btn"
+                        android:text="确     定" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/width_" >
+
+                <LinearLayout
+                    android:id="@+id/line_cancel"
+                    style="@style/line1"
+                    android:background="@drawable/shape_greybtn"
+                    android:gravity="center_vertical|center_horizontal" >
+
+                    <TextView
+                        style="@style/popup_btn"
+                        android:text="取     消" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

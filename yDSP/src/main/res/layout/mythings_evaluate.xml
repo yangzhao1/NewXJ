@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/evaluate_lin"
+    android:layout_width="match_parent"
+    android:visibility="gone"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="@color/interval"/>
+
+    <LinearLayout
+        android:id="@+id/evaluate_lins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="?textsizes"
+            android:text="请对我们的服务做出评价"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fcmy"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="非常满意"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:drawableTop="@drawable/fcmy"
+                android:drawablePadding="10dp"
+                android:textSize="?textsizes"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/my"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="满意"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:drawableTop="@drawable/my"
+                android:textSize="?textsizes"
+
+                android:drawablePadding="10dp"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/yb"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="一般"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:drawableTop="@drawable/yb"
+                android:drawablePadding="10dp"
+                android:textSize="?textsizes"
+
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/bmy"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="不满意"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:drawableTop="@drawable/bmy"
+                android:textSize="?textsizes"
+
+                android:drawablePadding="10dp"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:paddingBottom="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="?textsizes"
+            android:text="服务评价："/>
+
+        <ImageView
+            android:id="@+id/pj_image_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:visibility="visible"
+            android:background="@drawable/bmy_s"/>
+
+        <TextView
+            android:id="@+id/pj_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:textSize="?textsizes"
+            android:textColor="@color/green"
+            android:text="未评价"/>
+
+    </LinearLayout>
+
+</LinearLayout>

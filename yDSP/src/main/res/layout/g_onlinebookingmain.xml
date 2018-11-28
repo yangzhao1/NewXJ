@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/g_titlebar"></include>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/scrollLin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="11dp"
+                        android:gravity="center_vertical"
+                        android:text="选择部门"
+                        android:textColor="@color/black"
+                        android:textSize="?textsizes" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/selectOrgname"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="true"
+                            android:text="请选择部门"
+                            android:textSize="?textsizes"
+                            android:layout_marginRight="20dp"
+                            android:textColor="@color/black"
+                            android:gravity="right|center_vertical"
+                            />
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/sj"
+                            />
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/line" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="11dp"
+                        android:gravity="center_vertical"
+                        android:text="业务事项"
+                        android:textColor="@color/black"
+                        android:textSize="?textsizes" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/selectItem"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="true"
+                            android:text="请选择事项"
+                            android:textSize="?textsizes"
+                            android:layout_marginRight="20dp"
+                            android:textColor="@color/black"
+                            android:gravity="right|center_vertical"
+                            />
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/sj"
+                            />
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/line" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginRight="10dp"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="11dp"
+                        android:gravity="center_vertical"
+                        android:text="预约时间"
+                        android:textColor="@color/black"
+                        android:textSize="?textsizes" />
+
+                    <TextView
+                        android:id="@+id/starttime"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center|right"
+                        android:textSize="?textsizes"
+                        android:textColor="@color/black"
+                        android:layout_marginRight="20dp"
+                        android:text="请选择预约时间"/>
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/sj"
+                        />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/line" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="45dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="11dp"
+                        android:gravity="center_vertical"
+                        android:text="时间节点"
+                        android:textColor="@color/black"
+                        android:textSize="?textsizes" />
+
+                    <TextView
+                        android:id="@+id/endtime"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center|right"
+                        android:textSize="?textsizes"
+                        android:textColor="@color/black"
+                        android:layout_marginRight="20dp"
+                        android:text="请选择时间节点"/>
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/sj"
+                        />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:background="@color/interval" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="11dp"
+                        android:gravity="center_vertical"
+                        android:text="真实姓名"
+                        android:textColor="@color/black"
+                        android:textSize="?textsizes" />
+
+                    <TextView
+                        android:id="@+id/realName"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/white"
+                        android:gravity="right|center_vertical"
+                        android:padding="10dp"
+                        android:text="真实姓名"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="?textsizes" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/line" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="11dp"
+                        android:gravity="center_vertical"
+                        android:text="身份证号"
+                        android:textColor="@color/black"
+                        android:textSize="?textsizes" />
+
+                    <TextView
+                        android:id="@+id/identity"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:background="@color/white"
+                        android:gravity="right|center_vertical"
+                        android:padding="10dp"
+                        android:text="身份证号"
+                        android:textColor="@color/black"
+                        android:paddingRight="10dp"
+                        android:textSize="?textsizes" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="11dp"
+                        android:gravity="center_vertical"
+                        android:text="联系方式 "
+                        android:textColor="@color/black"
+                        android:textSize="?textsizes" />
+
+                    <EditText
+                        android:id="@+id/phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:background="@null"
+                        android:gravity="right|center_vertical"
+                        android:hint="请输入联系方式"
+                        android:textColor="@color/black"
+                        android:singleLine="true"
+                        android:maxLength="11"
+                        android:inputType="number"
+                        android:paddingRight="10dp"
+                        android:textColorHint="@color/hintcolor"
+                        android:textSize="?textsizes" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btnbg_shape"
+                    android:gravity="center"
+                    android:text="我要预约"
+                    android:textColor="@color/white"
+                    android:textSize="?textsizes" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/prompt"
+                        android:textColor="@color/hintcolor"
+                        android:textSize="?textsizes" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:lineSpacingExtra="3dp"
+                        android:text="@string/booking_content"
+                        android:textColor="@color/hintcolor"
+                        android:textSize="?textsosmall" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>
