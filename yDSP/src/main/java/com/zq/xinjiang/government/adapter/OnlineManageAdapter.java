@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.zq.xinjiang.R;
+import com.zq.xinjiang.government.activity.G_OnlineManageActivity;
 import com.zq.xinjiang.government.tool.ViewHolder;
 
 import java.util.List;
@@ -49,11 +50,7 @@ public class OnlineManageAdapter extends AutoRVAdapter {
         select.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
-                intent.setType("*/*");//设置类型，我这里是任意类型，任意后缀的可以这样写。
-                intent.addCategory(Intent.CATEGORY_OPENABLE);
-
-                context.startActivityForResult(intent,position);
+                selectFile.setSelectFile(position);
             }
         });
 //上传文件
@@ -66,4 +63,13 @@ public class OnlineManageAdapter extends AutoRVAdapter {
         });
     }
 
+    public interface SelectFile{
+        void setSelectFile(int pos);
+    }
+
+    private SelectFile selectFile;
+
+    public void setSelectFile(SelectFile selectFile) {
+        this.selectFile = selectFile;
+    }
 }

@@ -1,17 +1,23 @@
 package com.zq.xinjiang.government.adapter;
 
+import android.app.DownloadManager;
 import android.content.ActivityNotFoundException;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.net.Uri;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.lidroid.xutils.util.LogUtils;
 import com.zq.xinjiang.R;
 import com.zq.xinjiang.government.tool.Allports;
 import com.zq.xinjiang.government.tool.DownloadFile;
 import com.zq.xinjiang.government.tool.ViewHolder;
+import com.zq.xinjiang.unmethod.FileDownloadManager;
 
 import java.io.File;
 import java.util.List;
@@ -38,7 +44,7 @@ public class ItemDetailTableDownAdapter extends AutoRVAdapter {
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
+    public void onBindViewHolder(ViewHolder holder, final int position) {
         TextView filename = holder.getTextView(R.id.downfile);
         final TextView savePath = holder.getTextView(R.id.savepath);
         Map map = (Map) list.get(position);
@@ -60,21 +66,30 @@ public class ItemDetailTableDownAdapter extends AutoRVAdapter {
         down.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+//                sampleDownLoadFile.setDownLoadFile(position);
+
+
                 String text = down.getText().toString();
                 if (text.equals("下载")){
                     DownloadFile downloadFile = new DownloadFile(context,down,dfname,savePath);
                     downloadFile.downInfo(downFilePath);
                 }else if (text.equals("打开")){
 
-                    String filepath = DownloadFile.savePath;
-                    File file = new File(filepath);
+//                    String filepath = context.getFilesDir();
+                    File file =context.getExternalFilesDir(DownloadFile.savePath);
                     if(null==file || !file.exists()){
                         return;
                     }
+
                     Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
-                    intent.addCategory(Intent.CATEGORY_DEFAULT);
+                    intent.setType("*/*");
+                    intent.addCategory(Intent.CATEGORY_OPENABLE);
+
 //                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                    intent.setDataAndType(Uri.fromFile(file), "file/*");
+//                    intent.setDataAndType(Uri.fromFile(file1), "file/*");
+
+//                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(file.toString()));
                     try {
                         context.startActivity(intent);
 //                        startActivity(Intent.createChooser(intent,"选择浏览工具"));
@@ -84,6 +99,17 @@ public class ItemDetailTableDownAdapter extends AutoRVAdapter {
                 }
             }
         });
-
     }
+
+    public interface SampleDownLoadFile{
+        void setDownLoadFile(int pos);
+    }
+
+    private SampleDownLoadFile sampleDownLoadFile;
+
+    public void sampleDownFile(SampleDownLoadFile sampleDownLoadFile){
+        this.sampleDownLoadFile = sampleDownLoadFile;
+    }
+
+
 }

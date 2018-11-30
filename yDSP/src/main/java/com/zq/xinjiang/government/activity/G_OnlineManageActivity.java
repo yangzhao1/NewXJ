@@ -1,12 +1,21 @@
 package com.zq.xinjiang.government.activity;
 
+import android.Manifest;
+import android.annotation.SuppressLint;
 import android.app.Dialog;
+import android.content.ContentUris;
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.database.Cursor;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
+import android.provider.DocumentsContract;
+import android.provider.MediaStore;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -19,10 +28,12 @@ import android.widget.TextView;
 
 import com.zq.xinjiang.BaseActivity;
 import com.zq.xinjiang.R;
+import com.zq.xinjiang.approval.homeactivity.MainActivity;
 import com.zq.xinjiang.approval.utils.MSimpleHttpUtil;
 import com.zq.xinjiang.government.adapter.OnlineManageAdapter;
 import com.zq.xinjiang.government.entity.ItemDetails;
 import com.zq.xinjiang.government.tool.Allports;
+import com.zq.xinjiang.government.tool.DownloadFile;
 import com.zq.xinjiang.government.tool.FileUploaders;
 import com.zq.xinjiang.government.tool.MyLinearLayoutManager;
 import com.zq.xinjiang.government.tool.MyUploader;
@@ -40,11 +51,14 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import permissions.dispatcher.NeedsPermission;
+import permissions.dispatcher.RuntimePermissions;
+
 /**
  * Created by Administrator on 2017/9/14.
  * 在线办理
  */
-
+@RuntimePermissions
 public class G_OnlineManageActivity extends BaseActivity {
     private TextView titleText;
     private TextView back;
@@ -387,7 +401,16 @@ public class G_OnlineManageActivity extends BaseActivity {
         adapter = new OnlineManageAdapter(this,mapList);
         recyclerView.setAdapter(adapter);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
-
+        adapter.setSelectFile(new OnlineManageAdapter.SelectFile() {
+            @Override
+            public void setSelectFile(int pos) {
+                Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
+                intent.setType("*/*");//设置类型，我这里是任意类型，任意后缀的可以这样写。
+                intent.addCategory(Intent.CATEGORY_OPENABLE);
+//                MainActivityPermissionsDispatcher.showCameraWithPermissionCheck(this);
+                startActivityForResult(intent,pos);
+            }
+        });
         itemname.setText(itemDetails.getItemname());
         orgname.setText(itemDetails.getOrgname());
     }
@@ -399,15 +422,16 @@ public class G_OnlineManageActivity extends BaseActivity {
         File file = null;
         if (resultCode == this.RESULT_OK) {//是否选择，没选择就不会继续
             Uri uri = data.getData();//得到uri，后面就是将uri转化成file的过程。
-            path = uri.getPath();
-//            String[] proj = {MediaStore.Images.Media.DATA};
-//            Cursor actualimagecursor = managedQuery(uri, proj, null, null, null);
-//            int actual_image_column_index = actualimagecursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATA);
-//            actualimagecursor.moveToFirst();
-//            String img_path = actualimagecursor.getString(actual_image_column_index);
-//            file = new File(img_path);
+            if ("file".equalsIgnoreCase(uri.getScheme())){//使用第三方应用打开
+                path = uri.getPath();
+                return;
+            }
+            if (Build.VERSION.SDK_INT > Build.VERSION_CODES.KITKAT) {//4.4以后
+                getPath(this, uri);
+            } else {//4.4以下下系统调用方法
+                path = getRealPathFromURI(uri);
+            }
 
-//            Toast.makeText(this, path, Toast.LENGTH_SHORT).show();
             initToast(path);
         }
         Map map;
@@ -481,6 +505,155 @@ public class G_OnlineManageActivity extends BaseActivity {
                     break;
             }
         }
+    }
+
+    public String getRealPathFromURI(Uri contentUri) {
+        String res = null;
+        String[] proj = { MediaStore.Images.Media.DATA };
+        Cursor cursor = getContentResolver().query(contentUri, proj, null, null, null);
+        if(null!=cursor&&cursor.moveToFirst()){;
+            int column_index = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATA);
+            res = cursor.getString(column_index);
+            cursor.close();
+        }
+        return res;
+    }
+
+    /**
+     * 专为Android4.4设计的从Uri获取文件绝对路径，以前的方法已不好使
+     */
+    @SuppressLint("NewApi")
+    public void getPath(final Context context, final Uri uri) {
+
+        final boolean isKitKat = Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT;
+
+        // DocumentProvider
+        if (isKitKat && DocumentsContract.isDocumentUri(context, uri)) {
+            // ExternalStorageProvider
+            if (isExternalStorageDocument(uri)) {
+                final String docId = DocumentsContract.getDocumentId(uri);
+                final String[] split = docId.split(":");
+                final String type = split[0];
+
+                if ("primary".equalsIgnoreCase(type)) {
+                    path = Environment.getExternalStorageDirectory() + "/" + split[1];
+                }
+            }
+            // DownloadsProvider
+            else if (isDownloadsDocument(uri)) {
+
+                final String id = DocumentsContract.getDocumentId(uri);
+                final Uri contentUri = ContentUris.withAppendedId(
+                        Uri.parse("content://downloads/public_downloads"), Long.valueOf(id));
+                G_OnlineManageActivityPermissionsDispatcher.getDataColumnWithCheck(this,getApplicationContext(),contentUri,null,null);
+//                getDataColumn(context, contentUri, null, null);
+            }
+            // MediaProvider
+            else if (isMediaDocument(uri)) {
+                final String docId = DocumentsContract.getDocumentId(uri);
+                final String[] split = docId.split(":");
+                final String type = split[0];
+
+                Uri contentUri = null;
+                if ("image".equals(type)) {
+                    contentUri = MediaStore.Images.Media.EXTERNAL_CONTENT_URI;
+                } else if ("video".equals(type)) {
+                    contentUri = MediaStore.Video.Media.EXTERNAL_CONTENT_URI;
+                } else if ("audio".equals(type)) {
+                    contentUri = MediaStore.Audio.Media.EXTERNAL_CONTENT_URI;
+                }
+
+                final String selection = "_id=?";
+                final String[] selectionArgs = new String[]{split[1]};
+                G_OnlineManageActivityPermissionsDispatcher.getDataColumnWithCheck(this,getApplicationContext(),contentUri,selection,selectionArgs);
+
+//                getDataColumn(context, contentUri, selection, selectionArgs);
+            }
+        }
+        // MediaStore (and general)
+        else if ("content".equalsIgnoreCase(uri.getScheme())) {
+            G_OnlineManageActivityPermissionsDispatcher.getDataColumnWithCheck(this,getApplicationContext(),uri,null,null);
+
+//            getDataColumn(context, uri, null, null);
+        }
+        // File
+        else if ("file".equalsIgnoreCase(uri.getScheme())) {
+            path = uri.getPath();
+        }
+    }
+
+    /**
+     * Get the value of the data column for this Uri. This is useful for
+     * MediaStore Uris, and other file-based ContentProviders.
+     *
+     * @param context       The context.
+     * @param uri           The Uri to query.
+     * @param selection     (Optional) Filter used in the query.
+     * @param selectionArgs (Optional) Selection arguments used in the query.
+     * @return The value of the _data column, which is typically a file path.
+     */
+    private String TAG = "";
+
+//    @SuppressLint("NewApi")
+    @NeedsPermission(Manifest.permission.READ_EXTERNAL_STORAGE)
+    void getDataColumn(Context context, Uri uri, String selection,
+                                String[] selectionArgs) {
+
+        Cursor cursor = null;
+        final String column = "_data";
+        final String[] projection = {column};
+
+        try {
+            cursor = context.getContentResolver().query(uri, projection, selection, selectionArgs,
+                            null);
+            if (cursor != null && cursor.moveToFirst()) {
+                final int column_index = cursor.getColumnIndexOrThrow(column);
+                path = cursor.getString(column_index);
+            }
+        } finally {
+            if (cursor != null)
+                cursor.close();
+        }
+    }
+
+
+//---------------------
+//    作者：LakeSideHu
+//    来源：CSDN
+//    原文：https://blog.csdn.net/likesidehu/article/details/52668879
+//    版权声明：本文为博主原创文章，转载请附上博文链接！
+
+
+    /**
+     * @param uri The Uri to check.
+     * @return Whether the Uri authority is ExternalStorageProvider.
+     */
+    public boolean isExternalStorageDocument(Uri uri) {
+        return "com.android.externalstorage.documents".equals(uri.getAuthority());
+    }
+
+    /**
+     * @param uri The Uri to check.
+     * @return Whether the Uri authority is DownloadsProvider.
+     */
+    public boolean isDownloadsDocument(Uri uri) {
+        return "com.android.providers.downloads.documents".equals(uri.getAuthority());
+    }
+
+    /**
+     * @param uri The Uri to check.
+     * @return Whether the Uri authority is MediaProvider.
+     */
+    public boolean isMediaDocument(Uri uri) {
+        return "com.android.providers.media.documents".equals(uri.getAuthority());
+    }
+
+    @SuppressLint("NeedOnRequestPermissionsResult")
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        // NOTE: delegate the permission handling to generated method
+        G_OnlineManageActivityPermissionsDispatcher.onRequestPermissionsResult(this, requestCode, grantResults);
     }
 
 }
